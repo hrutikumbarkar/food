@@ -2,7 +2,7 @@
 <div class="main-content">
         <div class="wrapper">
             <h1>Manage Order</h1>
-            <br/>
+            <br/><br>
             <?php
             if(isset($_SESSION['add']))
             {

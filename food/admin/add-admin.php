@@ -10,7 +10,7 @@
                 {
                     echo $_SESSION['add'];// Displaying Session Message if SET
                     unset($_SESSION['add']); //Removing Session Message
-                }
+                } 
             
             ?>
         <form action="" method="POST">
@@ -77,7 +77,7 @@
         }
 
         else{    // Failed to insert data
-             echo "Faile to Insert Data ";
+             //echo "Faile to Insert Data ";
              // Create a Session variable to Display Message
              $_SESSION['add'] = "Failed To Add Admin ";
             //  // Redirect Add Admin page
